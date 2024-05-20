@@ -141,7 +141,7 @@ resources:
           #!/bin/bash
           docker run --restart=always -d -e POSTGRES_USER=variables_user -e POSTGRES_DB=variables_db -e POSTGRES_PASSWORD=isis2503 -p 5432:5432 --name variables-db postgres
   # new places database
-  - name: msd-places-db
+- name: msd-places-db
   type: compute.v1.instance
   properties:
     zone: us-central1-a
@@ -269,7 +269,7 @@ resources:
           sudo python3 manage.py migrate
 
   # New service instance
-  - name: msd-places-ms
+- name: msd-places-ms
   type: compute.v1.instance
   properties:
     zone: us-central1-a
