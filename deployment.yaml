@@ -104,7 +104,7 @@ resources:
           #!/bin/bash
           sudo mkdir /home/labs
           cd /home/labs
-          sudo git clone sudo git clone https://github.com/DannyC666/MicroservicesActivity.git
+          sudo git clone https://github.com/DannyC666/MicroservicesActivity.git
           cd MicroservicesActivity
           docker network create kong-net
           docker run -d --name kong --network=kong-net --restart=always \
@@ -229,7 +229,7 @@ resources:
           #!/bin/bash
           sudo mkdir /home/labs
           cd /home/labs
-          sudo git clone sudo git clone https://github.com/DannyC666/MicroservicesActivity.git
+          sudo git clone https://github.com/DannyC666/MicroservicesActivity.git
           cd MicroservicesActivity/variables
 
 - name: msd-measurements-ms
@@ -262,7 +262,7 @@ resources:
           sudo apt install python3-pip -y
           sudo mkdir /home/labs
           cd /home/labs
-          sudo git clone sudo git clone https://github.com/DannyC666/MicroservicesActivity.git
+          sudo git clone https://github.com/DannyC666/MicroservicesActivity.git
           cd MicroservicesActivity/measurements
           sudo pip3 install -r requirements.txt
           sudo python3 manage.py makemigrations
@@ -299,5 +299,5 @@ resources:
           sudo apt install python3-pip -y
           sudo mkdir /home/labs
           cd /home/labs
-          sudo git clone sudo git clone https://github.com/DannyC666/MicroservicesActivity.git
+          sudo git clone https://github.com/DannyC666/MicroservicesActivity.git
           cd MicroservicesActivity/places
